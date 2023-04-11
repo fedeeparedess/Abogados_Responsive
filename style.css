@@ -42,8 +42,16 @@ nav {
     transition: 0.3s;
 }
 
+.btncont {
+    color: rgb(0, 1, 58) !important;
+}
+
+.btncont:hover {
+    color: aliceblue !important;
+}
+
 #navbarcont {
-    color: rgb(0, 1, 58);
+    color: rgb(0, 1, 58) !important;
     border-color:aliceblue;
     border-radius: 20px;
     background-color: aliceblue;
@@ -53,8 +61,8 @@ nav {
 }
 
 #navbarcont:hover {
+    color: aliceblue !important;
     background-color: rgb(0, 1, 58);
-    color: aliceblue;
     transition: 0.3s;
     transform: scale(1.02);
     font-weight: 700;
