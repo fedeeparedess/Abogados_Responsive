@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-weight: 700;
+}
+
+body {
+    background-color: aliceblue !important;
+    display: grid;
+}
+
+nav {
+    background-color: rgb(0, 1, 58);
+}
+
+.navbar-toggler{
+    border-color: rgb(0, 1, 58) !important;
+    background-color: aliceblue !important; 
+}
+
+.navbar-toggler:hover{
+    border-color: rgb(3, 32, 126) !important;
+    border-width: 3px !important;
+}
+
+.nav-link {
+    color: aliceblue !important;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+#navbarcont {
+    color: rgb(0, 1, 58);
+    border-color:aliceblue;
+    border-radius: 20px;
+    background-color: aliceblue;
+    font-weight: 700;
+    border-width: 1px;
+    transition: 0.3s;
+}
+
+#navbarcont:hover {
+    background-color: rgb(0, 1, 58);
+    color: aliceblue;
+    transition: 0.3s;
+    transform: scale(1.02);
+    font-weight: 700;
+}
+
+.cardtext1 {
+    font-weight: 700 !important;
+    font-size: 45px;
+}
+
+.card2 {
+    background-color: aliceblue !important;
+}
+
+.card2 h2 {
+    color: rgb(1, 3, 141);
+    font-weight: 700;
+}
+
+.container2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./juez-mazo.jpg);
+    background-size: 100%;
+    padding: 150px;
+    background-attachment: fixed !important;
+}
+
+
+
+.card3 .card-text {
+    font-size: 40px;
+    color: rgb(240, 248, 255) !important;
+    opacity: 1 !important;
+
+}
+
+.card3 .card-title {
+    font-size: 40px;
+    color: rgb(240, 248, 255) !important;
+}
+
+.footer {
+    background-color: rgb(0, 1, 58) !important;
+    color: aliceblue !important;
+}
